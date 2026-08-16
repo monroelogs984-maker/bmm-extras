@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " BD",
+    " L ",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "undergarden:utherium_crystal"
+    },
+    "B": {
+      "item": "undergarden:utherium_block"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:utherium_whip",
+    "count": 1
+  }
+}

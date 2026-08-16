@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "DB ",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "primalmagick:primalite_ingot"
+    },
+    "B": {
+      "item": "primalmagick:primalite_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:primalite_warhammer",
+    "count": 1
+  }
+}

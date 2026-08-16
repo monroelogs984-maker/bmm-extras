@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "DBD",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "tag": "wyrmroost:platinum_ingots"
+    },
+    "B": {
+      "item": "wyrmroost:platinum_block"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:platinum_claw",
+    "count": 1
+  }
+}

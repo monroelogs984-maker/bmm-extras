@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " BD",
+    " L ",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:bone"
+    },
+    "B": {
+      "item": "minecraft:bone_block"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:bone_whip",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "DBD",
+    "MSM"
+  ],
+  "key": {
+    "D": {
+      "tag": "wyrmroost:platinum_ingots"
+    },
+    "B": {
+      "item": "wyrmroost:platinum_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "M": {
+      "item": "minecraft:magma_cream"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:platinum_flamberge",
+    "count": 1
+  }
+}

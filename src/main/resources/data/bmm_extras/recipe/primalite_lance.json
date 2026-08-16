@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " S ",
+    "SSS"
+  ],
+  "key": {
+    "B": {
+      "item": "primalmagick:primalite_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:primalite_lance",
+    "count": 1
+  }
+}

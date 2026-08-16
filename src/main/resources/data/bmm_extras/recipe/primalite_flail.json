@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DBD",
+    " C ",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "primalmagick:primalite_ingot"
+    },
+    "B": {
+      "item": "primalmagick:primalite_block"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:primalite_flail",
+    "count": 1
+  }
+}

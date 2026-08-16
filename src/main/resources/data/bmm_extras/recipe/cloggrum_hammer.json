@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "DBD",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "undergarden:cloggrum_ingot"
+    },
+    "B": {
+      "item": "undergarden:cloggrum_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:cloggrum_hammer",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "DBD",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "item": "primalmagick:hallowsteel_ingot"
+    },
+    "B": {
+      "item": "primalmagick:hallowsteel_block"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:hallowsteel_claw",
+    "count": 1
+  }
+}

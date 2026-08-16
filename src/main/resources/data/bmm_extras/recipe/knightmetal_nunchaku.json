@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " C ",
+    "D  "
+  ],
+  "key": {
+    "D": {
+      "tag": "c:ingots/knightmetal"
+    },
+    "B": {
+      "item": "twilightforest:knightmetal_block"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:knightmetal_nunchaku",
+    "count": 1
+  }
+}

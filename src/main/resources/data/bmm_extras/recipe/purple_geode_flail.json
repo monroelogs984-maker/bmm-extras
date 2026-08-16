@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DBD",
+    " C ",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "wyrmroost:purple_geode"
+    },
+    "B": {
+      "item": "wyrmroost:purple_geode_block"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:purple_geode_flail",
+    "count": 1
+  }
+}

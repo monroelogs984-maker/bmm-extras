@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    " B ",
+    "   "
+  ],
+  "key": {
+    "D": {
+      "item": "wyrmroost:blue_geode"
+    },
+    "B": {
+      "item": "wyrmroost:blue_geode_block"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:blue_geode_gauntlets",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "DBD",
+    "MSM"
+  ],
+  "key": {
+    "D": {
+      "item": "druidcraftrg:moonstone"
+    },
+    "B": {
+      "item": "druidcraftrg:moonstone_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "M": {
+      "item": "minecraft:magma_cream"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:moonstone_flamberge",
+    "count": 1
+  }
+}

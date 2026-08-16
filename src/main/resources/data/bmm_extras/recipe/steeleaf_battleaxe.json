@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DBD",
+    "DSD",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "tag": "c:ingots/steeleaf"
+    },
+    "B": {
+      "item": "twilightforest:steeleaf_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:steeleaf_battleaxe",
+    "count": 1
+  }
+}

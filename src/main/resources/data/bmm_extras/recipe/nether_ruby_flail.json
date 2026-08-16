@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DBD",
+    " C ",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "betternether:nether_ruby"
+    },
+    "B": {
+      "item": "betternether:nether_ruby_block"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:nether_ruby_flail",
+    "count": 1
+  }
+}

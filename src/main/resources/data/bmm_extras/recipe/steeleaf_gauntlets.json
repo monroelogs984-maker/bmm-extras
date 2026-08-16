@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    " B ",
+    "   "
+  ],
+  "key": {
+    "D": {
+      "tag": "c:ingots/steeleaf"
+    },
+    "B": {
+      "item": "twilightforest:steeleaf_block"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:steeleaf_gauntlets",
+    "count": 1
+  }
+}

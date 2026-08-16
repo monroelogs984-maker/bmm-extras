@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "betternether:flaming_ruby_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "bmm_extras:nether_ruby_claw"
+  },
+  "addition": {
+    "item": "minecraft:sculk_catalyst"
+  },
+  "result": {
+    "id": "bmm_extras:flaming_ruby_claw",
+    "count": 1
+  }
+}

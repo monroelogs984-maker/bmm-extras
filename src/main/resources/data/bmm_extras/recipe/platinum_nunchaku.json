@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " C ",
+    "D  "
+  ],
+  "key": {
+    "D": {
+      "tag": "wyrmroost:platinum_ingots"
+    },
+    "B": {
+      "item": "wyrmroost:platinum_block"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:platinum_nunchaku",
+    "count": 1
+  }
+}

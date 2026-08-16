@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " D ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "twilightforest:knightmetal_block"
+    },
+    "D": {
+      "tag": "c:ingots/knightmetal"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:knightmetal_broadsword",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "B  ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "betternether:nether_ruby_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:nether_ruby_handaxe",
+    "count": 1
+  }
+}

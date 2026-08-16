@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " SD",
+    "S  "
+  ],
+  "key": {
+    "D": {
+      "item": "betterend:aeternium_ingot"
+    },
+    "B": {
+      "item": "betterend:aeternium_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:aeternium_glaive",
+    "count": 1
+  }
+}

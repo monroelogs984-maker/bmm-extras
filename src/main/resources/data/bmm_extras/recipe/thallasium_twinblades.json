@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " S ",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "betterend:thallasium_ingot"
+    },
+    "B": {
+      "item": "betterend:thallasium_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:thallasium_twinblades",
+    "count": 1
+  }
+}

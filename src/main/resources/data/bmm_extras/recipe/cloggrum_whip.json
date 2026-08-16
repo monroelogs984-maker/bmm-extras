@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " BD",
+    " L ",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "undergarden:cloggrum_ingot"
+    },
+    "B": {
+      "item": "undergarden:cloggrum_block"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:cloggrum_whip",
+    "count": 1
+  }
+}

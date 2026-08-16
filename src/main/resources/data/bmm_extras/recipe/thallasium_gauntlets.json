@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    " B ",
+    "   "
+  ],
+  "key": {
+    "D": {
+      "item": "betterend:thallasium_ingot"
+    },
+    "B": {
+      "item": "betterend:thallasium_block"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:thallasium_gauntlets",
+    "count": 1
+  }
+}

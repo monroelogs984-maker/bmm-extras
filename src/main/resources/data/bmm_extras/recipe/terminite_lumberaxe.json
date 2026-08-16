@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " BD",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "betterend:terminite_ingot"
+    },
+    "B": {
+      "item": "betterend:terminite_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:terminite_lumberaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    " B ",
+    "   "
+  ],
+  "key": {
+    "D": {
+      "item": "primalmagick:primalite_ingot"
+    },
+    "B": {
+      "item": "primalmagick:primalite_block"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:primalite_gauntlets",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " D ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "betternether:nether_ruby_block"
+    },
+    "D": {
+      "item": "betternether:nether_ruby"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:nether_ruby_broadsword",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "DBD",
+    "MSM"
+  ],
+  "key": {
+    "D": {
+      "item": "primalmagick:hexium_ingot"
+    },
+    "B": {
+      "item": "primalmagick:hexium_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "M": {
+      "item": "minecraft:magma_cream"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:hexium_flamberge",
+    "count": 1
+  }
+}

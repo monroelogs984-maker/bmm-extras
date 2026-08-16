@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "DSD",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:bone"
+    },
+    "B": {
+      "item": "minecraft:bone_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:bone_trident",
+    "count": 1
+  }
+}

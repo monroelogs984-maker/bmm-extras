@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " D ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "twilightforest:ironwood_block"
+    },
+    "D": {
+      "tag": "c:ingots/ironwood"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:ironwood_broadsword",
+    "count": 1
+  }
+}

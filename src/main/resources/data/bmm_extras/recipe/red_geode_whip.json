@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " BD",
+    " L ",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "wyrmroost:red_geode"
+    },
+    "B": {
+      "item": "wyrmroost:red_geode_block"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:red_geode_whip",
+    "count": 1
+  }
+}

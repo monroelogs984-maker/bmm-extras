@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  D",
+    " B ",
+    "S  "
+  ],
+  "key": {
+    "D": {
+      "item": "undergarden:utherium_crystal"
+    },
+    "B": {
+      "item": "undergarden:utherium_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:utherium_sabre",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "DSD",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "primalmagick:primalite_ingot"
+    },
+    "B": {
+      "item": "primalmagick:primalite_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:primalite_trident",
+    "count": 1
+  }
+}

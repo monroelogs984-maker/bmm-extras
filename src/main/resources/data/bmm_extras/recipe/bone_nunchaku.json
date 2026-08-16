@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " C ",
+    "D  "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:bone"
+    },
+    "B": {
+      "item": "minecraft:bone_block"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:bone_nunchaku",
+    "count": 1
+  }
+}

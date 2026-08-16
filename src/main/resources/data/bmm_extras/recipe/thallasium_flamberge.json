@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "DBD",
+    "MSM"
+  ],
+  "key": {
+    "D": {
+      "item": "betterend:thallasium_ingot"
+    },
+    "B": {
+      "item": "betterend:thallasium_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "M": {
+      "item": "minecraft:magma_cream"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:thallasium_flamberge",
+    "count": 1
+  }
+}

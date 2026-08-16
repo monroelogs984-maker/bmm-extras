@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    " B ",
+    "SD "
+  ],
+  "key": {
+    "D": {
+      "item": "undergarden:froststeel_ingot"
+    },
+    "B": {
+      "item": "undergarden:froststeel_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:froststeel_rapier",
+    "count": 1
+  }
+}

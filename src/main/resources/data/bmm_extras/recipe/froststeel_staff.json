@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SBS",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "undergarden:froststeel_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:froststeel_staff",
+    "count": 1
+  }
+}

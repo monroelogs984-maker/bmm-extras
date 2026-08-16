@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " C ",
+    "D  "
+  ],
+  "key": {
+    "D": {
+      "item": "betternether:nether_ruby"
+    },
+    "B": {
+      "item": "betternether:nether_ruby_block"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:nether_ruby_nunchaku",
+    "count": 1
+  }
+}

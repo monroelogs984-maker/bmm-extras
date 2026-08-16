@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " D ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "primalmagick:hallowsteel_block"
+    },
+    "D": {
+      "item": "primalmagick:hallowsteel_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:hallowsteel_broadsword",
+    "count": 1
+  }
+}

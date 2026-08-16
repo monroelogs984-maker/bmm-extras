@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "DSD",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "druidcraftrg:moonstone"
+    },
+    "B": {
+      "item": "druidcraftrg:moonstone_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:moonstone_trident",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " C ",
+    "D  "
+  ],
+  "key": {
+    "D": {
+      "item": "primalmagick:hexium_ingot"
+    },
+    "B": {
+      "item": "primalmagick:hexium_block"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:hexium_nunchaku",
+    "count": 1
+  }
+}

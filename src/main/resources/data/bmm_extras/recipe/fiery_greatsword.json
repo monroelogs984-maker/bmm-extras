@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "DBD",
+    "DSD"
+  ],
+  "key": {
+    "D": {
+      "tag": "c:ingots/fiery"
+    },
+    "B": {
+      "item": "twilightforest:fiery_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:fiery_greatsword",
+    "count": 1
+  }
+}

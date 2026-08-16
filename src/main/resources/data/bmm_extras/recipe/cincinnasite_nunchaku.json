@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " C ",
+    "D  "
+  ],
+  "key": {
+    "D": {
+      "item": "betternether:cincinnasite_ingot"
+    },
+    "B": {
+      "item": "betternether:cincinnasite_block"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:cincinnasite_nunchaku",
+    "count": 1
+  }
+}

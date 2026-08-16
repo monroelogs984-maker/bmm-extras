@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  S",
+    " B ",
+    "S  "
+  ],
+  "key": {
+    "B": {
+      "item": "primalmagick:hexium_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:hexium_quarterstaff",
+    "count": 1
+  }
+}

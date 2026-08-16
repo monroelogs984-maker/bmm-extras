@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " C ",
+    "D  "
+  ],
+  "key": {
+    "D": {
+      "tag": "c:ingots/steeleaf"
+    },
+    "B": {
+      "item": "twilightforest:steeleaf_block"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:steeleaf_nunchaku",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " B ",
+    "  S"
+  ],
+  "key": {
+    "B": {
+      "item": "betterend:aeternium_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:aeternium_hunters_knife",
+    "count": 1
+  }
+}

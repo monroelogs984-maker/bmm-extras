@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DBD",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "primalmagick:hallowsteel_ingot"
+    },
+    "B": {
+      "item": "primalmagick:hallowsteel_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:hallowsteel_greathammer",
+    "count": 1
+  }
+}

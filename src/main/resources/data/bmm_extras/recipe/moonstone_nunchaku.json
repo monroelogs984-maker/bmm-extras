@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " C ",
+    "D  "
+  ],
+  "key": {
+    "D": {
+      "item": "druidcraftrg:moonstone"
+    },
+    "B": {
+      "item": "druidcraftrg:moonstone_block"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:moonstone_nunchaku",
+    "count": 1
+  }
+}

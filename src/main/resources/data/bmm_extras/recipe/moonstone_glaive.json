@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " SD",
+    "S  "
+  ],
+  "key": {
+    "D": {
+      "item": "druidcraftrg:moonstone"
+    },
+    "B": {
+      "item": "druidcraftrg:moonstone_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:moonstone_glaive",
+    "count": 1
+  }
+}

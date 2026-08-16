@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " D ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "betternether:cincinnasite_block"
+    },
+    "D": {
+      "item": "betternether:cincinnasite_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:cincinnasite_broadsword",
+    "count": 1
+  }
+}

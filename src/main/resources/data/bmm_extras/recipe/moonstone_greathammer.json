@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DBD",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "druidcraftrg:moonstone"
+    },
+    "B": {
+      "item": "druidcraftrg:moonstone_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:moonstone_greathammer",
+    "count": 1
+  }
+}

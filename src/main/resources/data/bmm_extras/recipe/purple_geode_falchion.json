@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " B ",
+    "S  "
+  ],
+  "key": {
+    "B": {
+      "item": "wyrmroost:purple_geode_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:purple_geode_falchion",
+    "count": 1
+  }
+}

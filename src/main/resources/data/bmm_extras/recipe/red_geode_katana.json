@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "DB ",
+    "SD "
+  ],
+  "key": {
+    "D": {
+      "item": "wyrmroost:red_geode"
+    },
+    "B": {
+      "item": "wyrmroost:red_geode_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:red_geode_katana",
+    "count": 1
+  }
+}

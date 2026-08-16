@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "undergarden:forgotten_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "bmm_extras:cloggrum_broadsword"
+  },
+  "addition": {
+    "item": "undergarden:forgotten_block"
+  },
+  "result": {
+    "id": "bmm_extras:forgotten_broadsword",
+    "count": 1
+  }
+}

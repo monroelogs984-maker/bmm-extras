@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    " B ",
+    "   "
+  ],
+  "key": {
+    "D": {
+      "item": "undergarden:utherium_crystal"
+    },
+    "B": {
+      "item": "undergarden:utherium_block"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:utherium_gauntlets",
+    "count": 1
+  }
+}

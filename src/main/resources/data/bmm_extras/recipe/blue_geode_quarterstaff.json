@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  S",
+    " B ",
+    "S  "
+  ],
+  "key": {
+    "B": {
+      "item": "wyrmroost:blue_geode_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:blue_geode_quarterstaff",
+    "count": 1
+  }
+}

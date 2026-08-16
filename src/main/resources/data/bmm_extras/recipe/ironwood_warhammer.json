@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "DB ",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "tag": "c:ingots/ironwood"
+    },
+    "B": {
+      "item": "twilightforest:ironwood_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:ironwood_warhammer",
+    "count": 1
+  }
+}

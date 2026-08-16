@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "DBD",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "item": "betterend:aeternium_ingot"
+    },
+    "B": {
+      "item": "betterend:aeternium_block"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:aeternium_claw",
+    "count": 1
+  }
+}

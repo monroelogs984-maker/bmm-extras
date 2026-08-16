@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " SD",
+    "S D"
+  ],
+  "key": {
+    "D": {
+      "item": "wyrmroost:purple_geode"
+    },
+    "B": {
+      "item": "wyrmroost:purple_geode_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:purple_geode_halberd",
+    "count": 1
+  }
+}

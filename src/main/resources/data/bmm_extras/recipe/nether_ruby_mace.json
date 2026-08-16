@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " B ",
+    "DSD"
+  ],
+  "key": {
+    "D": {
+      "item": "betternether:nether_ruby"
+    },
+    "B": {
+      "item": "betternether:nether_ruby_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:nether_ruby_mace",
+    "count": 1
+  }
+}

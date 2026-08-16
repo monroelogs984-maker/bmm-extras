@@ -1,0 +1,72 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Creative Commons 4.0"
+
+[[mods]]
+    modId="bmm_extras"
+    version="1.0.0-1.21.1"
+    displayName="BMM Extras"
+    description="Modded material weapon support for BROMAX's Many Melees. Adds all 37 weapon types in materials from Twilight Forest, The Undergarden, Better End, Better Nether, Primal Magick, Wyrmroost, and Druidcraft Regrown."
+
+[[dependencies.bmm_extras]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bmm_extras]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bmm_extras]]
+    modId="bromax_melees"
+    type="required"
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.bmm_extras]]
+    modId="twilightforest"
+    type="optional"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bmm_extras]]
+    modId="undergarden"
+    type="optional"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bmm_extras]]
+    modId="betterend"
+    type="optional"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bmm_extras]]
+    modId="betternether"
+    type="optional"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bmm_extras]]
+    modId="primalmagic"
+    type="optional"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bmm_extras]]
+    modId="wyrmroost"
+    type="optional"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bmm_extras]]
+    modId="druidcraftrg"
+    type="optional"
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " C ",
+    "D  "
+  ],
+  "key": {
+    "D": {
+      "item": "wyrmroost:blue_geode"
+    },
+    "B": {
+      "item": "wyrmroost:blue_geode_block"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:blue_geode_nunchaku",
+    "count": 1
+  }
+}

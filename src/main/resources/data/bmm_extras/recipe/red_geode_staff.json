@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SBS",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "wyrmroost:red_geode_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:red_geode_staff",
+    "count": 1
+  }
+}

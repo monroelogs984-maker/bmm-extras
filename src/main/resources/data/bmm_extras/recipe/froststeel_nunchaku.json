@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " C ",
+    "D  "
+  ],
+  "key": {
+    "D": {
+      "item": "undergarden:froststeel_ingot"
+    },
+    "B": {
+      "item": "undergarden:froststeel_block"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:froststeel_nunchaku",
+    "count": 1
+  }
+}

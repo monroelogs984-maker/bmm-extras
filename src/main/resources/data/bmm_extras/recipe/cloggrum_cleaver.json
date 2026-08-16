@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " DB",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "item": "undergarden:cloggrum_ingot"
+    },
+    "B": {
+      "item": "undergarden:cloggrum_block"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:cloggrum_cleaver",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " D ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "wyrmroost:platinum_block"
+    },
+    "D": {
+      "tag": "wyrmroost:platinum_ingots"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:platinum_broadsword",
+    "count": 1
+  }
+}

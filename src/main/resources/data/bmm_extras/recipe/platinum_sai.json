@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "D  ",
+    " B ",
+    "  S"
+  ],
+  "key": {
+    "D": {
+      "tag": "wyrmroost:platinum_ingots"
+    },
+    "B": {
+      "item": "wyrmroost:platinum_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:platinum_sai",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "DBD",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "primalmagick:hexium_ingot"
+    },
+    "B": {
+      "item": "primalmagick:hexium_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:hexium_hammer",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " D ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "wyrmroost:red_geode_block"
+    },
+    "D": {
+      "item": "wyrmroost:red_geode"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:red_geode_broadsword",
+    "count": 1
+  }
+}

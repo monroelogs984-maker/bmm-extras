@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    " B ",
+    "   "
+  ],
+  "key": {
+    "D": {
+      "item": "betterend:terminite_ingot"
+    },
+    "B": {
+      "item": "betterend:terminite_block"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:terminite_gauntlets",
+    "count": 1
+  }
+}

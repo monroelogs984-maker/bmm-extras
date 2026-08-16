@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  S",
+    " B ",
+    "S  "
+  ],
+  "key": {
+    "B": {
+      "item": "betternether:cincinnasite_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:cincinnasite_quarterstaff",
+    "count": 1
+  }
+}
