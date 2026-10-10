@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gaiadimension"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DBD",
+    "DSD",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "gaiadimension:goshenite"
+    },
+    "B": {
+      "item": "gaiadimension:goshenite_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:goshenite_battleaxe",
+    "count": 1
+  }
+}

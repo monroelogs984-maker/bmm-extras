@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/steel"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:storage_blocks/steel"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "DBD",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "tag": "c:ingots/steel"
+    },
+    "B": {
+      "tag": "c:storage_blocks/steel"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:steel_claw",
+    "count": 1
+  }
+}

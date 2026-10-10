@@ -2,8 +2,6 @@ package com.bromax.bromaxextras.compat;
 
 import com.bromax.bromaxextras.item.ExtrasItems;
 import com.bromax.bromaxextras.tier.ModdedTier;
-import com.bromax.bromaxmelees.item.BMMWeapon;
-import com.bromax.bromaxmelees.weapon.WeaponCategory;
 import net.minecraft.tags.BlockTags;
 import net.neoforged.fml.ModList;
 
@@ -34,17 +32,10 @@ public final class WyrmroostCompat {
             12642, 10.0f, 25, 14.4f,
             "wyrmroost", "purple_geode");
 
-    private static final ModdedTier[] TIERS = { PLATINUM, BLUE_GEODE, RED_GEODE, PURPLE_GEODE };
 
     public static void register() {
         if (!ModList.get().isLoaded("wyrmroost")) return;
-        for (ModdedTier tier : TIERS) {
-            for (WeaponCategory cat : WeaponCategory.values()) {
-                final ModdedTier t = tier;
-                final WeaponCategory c = cat;
-                ExtrasItems.add(t.prefix() + c.id(), () -> new BMMWeapon(c, t));
-            }
-        }
+        ExtrasItems.addTiers(PLATINUM, BLUE_GEODE, RED_GEODE, PURPLE_GEODE);
     }
 
     private WyrmroostCompat() {}

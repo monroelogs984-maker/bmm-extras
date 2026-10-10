@@ -2,8 +2,6 @@ package com.bromax.bromaxextras.compat;
 
 import com.bromax.bromaxextras.item.ExtrasItems;
 import com.bromax.bromaxextras.tier.ModdedTier;
-import com.bromax.bromaxmelees.item.BMMWeapon;
-import com.bromax.bromaxmelees.weapon.WeaponCategory;
 import net.minecraft.tags.BlockTags;
 import net.neoforged.fml.ModList;
 
@@ -27,17 +25,10 @@ public final class PrimalMagickCompat {
             7200, 11.5f, 28, 15.2f,
             "primalmagick", "hallowsteel_ingot");
 
-    private static final ModdedTier[] TIERS = { PRIMALITE, HEXIUM, HALLOWSTEEL };
 
     public static void register() {
         if (!ModList.get().isLoaded("primalmagick")) return;
-        for (ModdedTier tier : TIERS) {
-            for (WeaponCategory cat : WeaponCategory.values()) {
-                final ModdedTier t = tier;
-                final WeaponCategory c = cat;
-                ExtrasItems.add(t.prefix() + c.id(), () -> new BMMWeapon(c, t));
-            }
-        }
+        ExtrasItems.addTiers(PRIMALITE, HEXIUM, HALLOWSTEEL);
     }
 
     private PrimalMagickCompat() {}

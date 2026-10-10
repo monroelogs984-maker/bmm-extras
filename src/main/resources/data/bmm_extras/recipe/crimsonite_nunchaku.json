@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "abyssborne"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " C ",
+    "D  "
+  ],
+  "key": {
+    "D": {
+      "item": "abyssborne:crimsonite_ingot"
+    },
+    "B": {
+      "item": "abyssborne:crimsonite_block"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:crimsonite_nunchaku",
+    "count": 1
+  }
+}

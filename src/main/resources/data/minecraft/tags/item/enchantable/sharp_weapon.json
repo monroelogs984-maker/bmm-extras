@@ -1,6 +1,3413 @@
 {
   "replace": false,
   "values": [
-    "#bmm_extras:weapons"
+    {
+      "id": "#bmm_extras:weapons",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:dark_alloy_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:crimsonite_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:amaryllium_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:agate_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:stibnite_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:euclase_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:carnelian_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:goshenite_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:runed_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:living_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:copper_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:silver_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:steel_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:aquamarine_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:citrine_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:topaz_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:peridot_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ruby_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:sapphire_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:jade_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ametrine_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:ancient_zweihander",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_battleaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_broadsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_claw",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_cleaver",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_dagger",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_executioners_sword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_falchion",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_flail",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_flamberge",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_gauntlets",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_glaive",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_greathammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_greatsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_halberd",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_hammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_handaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_hunters_knife",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_katana",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_lance",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_longsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_lumberaxe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_mace",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_nunchaku",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_rapier",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_sabre",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_sai",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_scythe",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_shortsword",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_sickle",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_spear",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_staff",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_trident",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_twinblades",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_warhammer",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_whip",
+      "required": false
+    },
+    {
+      "id": "bmm_extras:enchanters_zweihander",
+      "required": false
+    }
   ]
 }

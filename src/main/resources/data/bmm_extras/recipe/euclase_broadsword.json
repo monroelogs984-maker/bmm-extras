@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gaiadimension"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " D ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "gaiadimension:euclase_block"
+    },
+    "D": {
+      "item": "gaiadimension:euclase"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:euclase_broadsword",
+    "count": 1
+  }
+}

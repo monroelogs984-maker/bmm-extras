@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "roots"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  S",
+    " B ",
+    "S  "
+  ],
+  "key": {
+    "B": {
+      "item": "roots:runed_obsidian"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:runed_quarterstaff",
+    "count": 1
+  }
+}

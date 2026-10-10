@@ -2,8 +2,6 @@ package com.bromax.bromaxextras.compat;
 
 import com.bromax.bromaxextras.item.ExtrasItems;
 import com.bromax.bromaxextras.tier.ModdedTier;
-import com.bromax.bromaxmelees.item.BMMWeapon;
-import com.bromax.bromaxmelees.weapon.WeaponCategory;
 import net.minecraft.tags.BlockTags;
 import net.neoforged.fml.ModList;
 
@@ -23,17 +21,10 @@ public final class DruidcraftCompat {
             5763, 9.0f, 15, 12.8f,
             "druidcraftrg", "moonstone");
 
-    private static final ModdedTier[] TIERS = { BONE, MOONSTONE };
 
     public static void register() {
         if (!ModList.get().isLoaded("druidcraftrg")) return;
-        for (ModdedTier tier : TIERS) {
-            for (WeaponCategory cat : WeaponCategory.values()) {
-                final ModdedTier t = tier;
-                final WeaponCategory c = cat;
-                ExtrasItems.add(t.prefix() + c.id(), () -> new BMMWeapon(c, t));
-            }
-        }
+        ExtrasItems.addTiers(BONE, MOONSTONE);
     }
 
     private DruidcraftCompat() {}

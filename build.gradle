@@ -2,7 +2,7 @@ plugins {
     id 'net.neoforged.gradle.userdev' version '7.1.38'
 }
 
-version = '1.0.0-1.21.1'
+version = '1.1.0-1.21.1'
 group = 'com.bromax.bromaxextras'
 
 base {
@@ -26,6 +26,8 @@ runs {
 dependencies {
     implementation "net.neoforged:neoforge:21.1.233"
     compileOnly files('../bmm-1211/build/libs/bromax_melees-1.2.1-1.21.1.jar')
+    // Ars Nouveau API for Enchanter's spell inscription (soft dependency — only loaded when Ars is present)
+    compileOnly files('/home/glenn/Documents/curseforge/minecraft/Instances/S202Neoforge/mods/ars_nouveau-1.21.1-5.13.3.jar')
 }
 
 jar {
@@ -47,7 +49,7 @@ tasks.register('deploy', Copy) {
         include "bmm_extras-*.jar"
         exclude "*-sources.jar"
     }
-    into '/home/glenn/Documents/curseforge/minecraft/Instances/S202 Neoforge/mods'
+    into '/home/glenn/Documents/curseforge/minecraft/Instances/S202Neoforge/mods'
 }
 
 tasks.register('deployTest', Copy) {

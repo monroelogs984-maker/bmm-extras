@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/copper"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:storage_blocks/copper"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    " B ",
+    "   "
+  ],
+  "key": {
+    "D": {
+      "tag": "c:ingots/copper"
+    },
+    "B": {
+      "tag": "c:storage_blocks/copper"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:copper_gauntlets",
+    "count": 1
+  }
+}

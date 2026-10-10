@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "pedestalItems": [
+    {
+      "tag": "c:storage_blocks/diamond"
+    },
+    {
+      "tag": "c:storage_blocks/gold"
+    },
+    {
+      "tag": "c:storage_blocks/gold"
+    },
+    {
+      "tag": "c:storage_blocks/source"
+    },
+    {
+      "tag": "c:storage_blocks/source"
+    }
+  ],
+  "reagent": {
+    "item": "bromax_melees:diamond_flail"
+  },
+  "result": {
+    "count": 1,
+    "id": "bmm_extras:enchanters_flail"
+  },
+  "sourceCost": 0
+}

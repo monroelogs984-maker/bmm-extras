@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "goety"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " D ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "goety:dark_metal_block"
+    },
+    "D": {
+      "item": "goety:dark_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:dark_alloy_broadsword",
+    "count": 1
+  }
+}

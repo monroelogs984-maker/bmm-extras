@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "roots"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " SD",
+    "S  "
+  ],
+  "key": {
+    "D": {
+      "tag": "roots:runed_obsidian"
+    },
+    "B": {
+      "item": "roots:runed_obsidian"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:runed_glaive",
+    "count": 1
+  }
+}

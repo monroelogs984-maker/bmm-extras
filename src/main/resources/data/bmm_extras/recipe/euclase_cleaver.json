@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gaiadimension"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " DB",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "item": "gaiadimension:euclase"
+    },
+    "B": {
+      "item": "gaiadimension:euclase_block"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:euclase_cleaver",
+    "count": 1
+  }
+}

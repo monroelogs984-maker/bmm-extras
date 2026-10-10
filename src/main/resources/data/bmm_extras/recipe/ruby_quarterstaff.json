@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mythicupgrades"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "mythicupgrades:mythic_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "bromax_melees:netherite_quarterstaff"
+  },
+  "addition": {
+    "item": "mythicupgrades:ruby_block"
+  },
+  "result": {
+    "id": "bmm_extras:ruby_quarterstaff",
+    "count": 1
+  }
+}

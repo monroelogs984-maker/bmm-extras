@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "roots"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BDD",
+    "S  ",
+    "S  "
+  ],
+  "key": {
+    "D": {
+      "tag": "minecraft:logs"
+    },
+    "B": {
+      "item": "minecraft:gold_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:living_scythe",
+    "count": 1
+  }
+}

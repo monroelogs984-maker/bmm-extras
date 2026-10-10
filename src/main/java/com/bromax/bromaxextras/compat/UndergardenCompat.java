@@ -2,9 +2,9 @@ package com.bromax.bromaxextras.compat;
 
 import com.bromax.bromaxextras.item.ExtrasItems;
 import com.bromax.bromaxextras.tier.ModdedTier;
-import com.bromax.bromaxmelees.item.BMMWeapon;
-import com.bromax.bromaxmelees.weapon.WeaponCategory;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.tags.TagKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -26,16 +26,19 @@ public final class UndergardenCompat {
     static final ModdedTier FROSTSTEEL = new ModdedTier(
             "froststeel_", BlockTags.INCORRECT_FOR_IRON_TOOL,
             1725, 7.0f, 20, 9.6f,
-            "undergarden", "froststeel_ingot",
-            UndergardenCompat::froststeelHit, 0);
+            "undergarden", "froststeel_ingot")
+            .onHit(UndergardenCompat::froststeelHit)
+            .bonusLines(1);
 
     // Utherium is a crystal, not an ingot — item ID is utherium_crystal
-    // UG's 1.5x damage to Rotspawn is applied by UG's own event handler; no separate BMM effect
+    // 1.5× damage to Rotspawn — mirrors UG's utheriumAttackEvent, which only checks UG's own sword/axe
     // damage=7.5 at speed 1.6 → baseDps=12.0
     static final ModdedTier UTHERIUM = new ModdedTier(
             "utherium_", BlockTags.INCORRECT_FOR_DIAMOND_TOOL,
             3837, 8.5f, 17, 12.0f,
-            "undergarden", "utherium_crystal");
+            "undergarden", "utherium_crystal")
+            .damageModifier(UndergardenCompat::utheriumBonus)
+            .bonusLines(1);
 
     // Smithing upgrade of Cloggrum — UG's rarest material
     // Effect: 1.5× damage to non-boss Undergarden mobs (via LivingIncomingDamageEvent, mirrors UG's forgottenAttackEvent)
@@ -43,24 +46,17 @@ public final class UndergardenCompat {
     static final ModdedTier FORGOTTEN = new ModdedTier(
             "forgotten_", BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
             5628, 8.0f, 2, 11.2f,
-            "undergarden", "forgotten_ingot",
-            null, 0,
-            UndergardenCompat::forgottenMultiplier);
+            "undergarden", "forgotten_ingot")
+            .damageModifier((target, attacker, amount) -> amount * forgottenMultiplier(target))
+            .bonusLines(1);
 
-    private static final ModdedTier[] TIERS = { CLOGGRUM, FROSTSTEEL, UTHERIUM, FORGOTTEN };
 
     public static void register() {
         if (!ModList.get().isLoaded("undergarden")) return;
-        for (ModdedTier tier : TIERS) {
-            for (WeaponCategory cat : WeaponCategory.values()) {
-                final ModdedTier t = tier;
-                final WeaponCategory c = cat;
-                ExtrasItems.add(t.prefix() + c.id(), () -> new BMMWeapon(c, t));
-            }
-        }
+        ExtrasItems.addTiers(CLOGGRUM, FROSTSTEEL, UTHERIUM, FORGOTTEN);
     }
 
-    private static void froststeelHit(LivingEntity target, LivingEntity attacker) {
+    private static void froststeelHit(LivingEntity target, LivingEntity attacker, float dealt) {
         // Chilly III for 30 seconds — same params as UG's froststeelAttackEvent for swords
         BuiltInRegistries.MOB_EFFECT
                 .getHolder(ResourceLocation.fromNamespaceAndPath("undergarden", "chilly"))
@@ -73,6 +69,13 @@ public final class UndergardenCompat {
         if (key == null || !"undergarden".equals(key.getNamespace())) return 1.0f;
         if (type.is(Tags.EntityTypes.BOSSES)) return 1.0f;
         return 1.5f;
+    }
+
+    private static final TagKey<EntityType<?>> ROTSPAWN =
+            TagKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath("undergarden", "rotspawn"));
+
+    private static float utheriumBonus(LivingEntity target, LivingEntity attacker, float amount) {
+        return target.getType().is(ROTSPAWN) ? amount * 1.5f : amount;
     }
 
     private UndergardenCompat() {}

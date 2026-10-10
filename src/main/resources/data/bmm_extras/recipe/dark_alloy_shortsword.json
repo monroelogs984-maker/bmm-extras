@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "goety"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " B ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "goety:dark_metal_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:dark_alloy_shortsword",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "goety"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    " B ",
+    "SD "
+  ],
+  "key": {
+    "D": {
+      "item": "goety:dark_ingot"
+    },
+    "B": {
+      "item": "goety:dark_metal_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:dark_alloy_rapier",
+    "count": 1
+  }
+}

@@ -2,8 +2,6 @@ package com.bromax.bromaxextras.compat;
 
 import com.bromax.bromaxextras.item.ExtrasItems;
 import com.bromax.bromaxextras.tier.ModdedTier;
-import com.bromax.bromaxmelees.item.BMMWeapon;
-import com.bromax.bromaxmelees.weapon.WeaponCategory;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.entity.LivingEntity;
 import net.neoforged.fml.ModList;
@@ -32,23 +30,17 @@ public final class BetterNetherCompat {
     static final ModdedTier FLAMING_RUBY = new ModdedTier(
             "flaming_ruby_", BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
             8583, 10.4f, 32, 16.0f,
-            "minecraft", "sculk_catalyst",
-            BetterNetherCompat::flamingRubyHit, 0);
+            "minecraft", "sculk_catalyst")
+            .onHit(BetterNetherCompat::flamingRubyHit)
+            .bonusLines(2);
 
-    private static final ModdedTier[] TIERS = { NETHER_RUBY, CINCINNASITE, FLAMING_RUBY };
 
     public static void register() {
         if (!ModList.get().isLoaded("betternether")) return;
-        for (ModdedTier tier : TIERS) {
-            for (WeaponCategory cat : WeaponCategory.values()) {
-                final ModdedTier t = tier;
-                final WeaponCategory c = cat;
-                ExtrasItems.add(t.prefix() + c.id(), () -> new BMMWeapon(c, t));
-            }
-        }
+        ExtrasItems.addTiers(NETHER_RUBY, CINCINNASITE, FLAMING_RUBY);
     }
 
-    private static void flamingRubyHit(LivingEntity target, LivingEntity attacker) {
+    private static void flamingRubyHit(LivingEntity target, LivingEntity attacker, float dealt) {
         // Knockback II equivalent (ruby_fire enchant: knockback 1.0 base at level 1)
         target.knockback(1.0, attacker.getX() - target.getX(), attacker.getZ() - target.getZ());
         // 25% chance: attacker takes indirect magic damage + self-ignite (matches ruby_fire post_attack JSON)

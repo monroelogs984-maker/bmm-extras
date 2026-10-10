@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "unusualfishmod"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "unusualfishmod:ancient_weapon_smithing_template"
+  },
+  "base": {
+    "item": "bromax_melees:diamond_whip"
+  },
+  "addition": {
+    "item": "unusualfishmod:depth_claw"
+  },
+  "result": {
+    "id": "bmm_extras:ancient_whip",
+    "count": 1
+  }
+}

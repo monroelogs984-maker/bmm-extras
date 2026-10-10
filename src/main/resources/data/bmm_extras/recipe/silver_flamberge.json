@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/silver"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:storage_blocks/silver"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "DBD",
+    "MSM"
+  ],
+  "key": {
+    "D": {
+      "tag": "c:ingots/silver"
+    },
+    "B": {
+      "tag": "c:storage_blocks/silver"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "M": {
+      "item": "minecraft:magma_cream"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:silver_flamberge",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "goety"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " C ",
+    "D  "
+  ],
+  "key": {
+    "D": {
+      "item": "goety:dark_ingot"
+    },
+    "B": {
+      "item": "goety:dark_metal_block"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:dark_alloy_nunchaku",
+    "count": 1
+  }
+}

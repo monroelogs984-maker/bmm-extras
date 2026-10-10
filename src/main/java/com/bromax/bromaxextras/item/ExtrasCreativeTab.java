@@ -1,6 +1,7 @@
 package com.bromax.bromaxextras.item;
 
 import com.bromax.bromaxextras.BromaxExtras;
+import com.bromax.bromaxextras.compat.CommonMetalsCompat;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -23,7 +24,12 @@ public final class ExtrasCreativeTab {
                         return new ItemStack(entries.iterator().next().get());
                     })
                     .displayItems((params, output) ->
-                            ExtrasItems.ITEMS.getEntries().forEach(e -> output.accept(e.get())))
+                            ExtrasItems.ITEMS.getEntries().forEach(e -> {
+                                // Generic metals stay hidden until some mod provides c:ingots/<metal>
+                                if (e.get() instanceof ExtrasWeapon ew
+                                        && !CommonMetalsCompat.isAvailable(ew.tier().prefix())) return;
+                                output.accept(e.get());
+                            }))
                     .build());
 
     private ExtrasCreativeTab() {}

@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gaiadimension"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DBD",
+    " C ",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "gaiadimension:goshenite"
+    },
+    "B": {
+      "item": "gaiadimension:goshenite_block"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:goshenite_flail",
+    "count": 1
+  }
+}

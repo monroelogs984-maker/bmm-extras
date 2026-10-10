@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "goety"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DBD",
+    " C ",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "goety:dark_ingot"
+    },
+    "B": {
+      "item": "goety:dark_metal_block"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:dark_alloy_flail",
+    "count": 1
+  }
+}

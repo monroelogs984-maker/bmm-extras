@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "abyssborne"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " D ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "abyssborne:crimsonite_block"
+    },
+    "D": {
+      "item": "abyssborne:crimsonite_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:crimsonite_broadsword",
+    "count": 1
+  }
+}

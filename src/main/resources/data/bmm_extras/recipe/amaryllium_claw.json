@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "abyssborne"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "DBD",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "item": "abyssborne:amaryllium_ingot"
+    },
+    "B": {
+      "item": "abyssborne:amaryllium_block"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:amaryllium_claw",
+    "count": 1
+  }
+}

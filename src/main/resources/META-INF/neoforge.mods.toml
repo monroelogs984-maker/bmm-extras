@@ -4,9 +4,9 @@ license="Creative Commons 4.0"
 
 [[mods]]
     modId="bmm_extras"
-    version="1.0.0-1.21.1"
+    version="1.1.0-1.21.1"
     displayName="BMM Extras"
-    description="Modded material weapon support for BROMAX's Many Melees. Adds all 37 weapon types in materials from Twilight Forest, The Undergarden, Better End, Better Nether, Primal Magick, Wyrmroost, and Druidcraft Regrown."
+    description="Modded material weapon support for BROMAX's Many Melees. Adds all 37 weapon types in materials from Twilight Forest, The Undergarden, Better End, Better Nether, Primal Magick, Wyrmroost, Druidcraft Regrown, Mythic Upgrades, Goety, Abyssborne, The Gaia Dimension, Ars Nouveau, Unusual Fish Mod, Roots, plus common copper, silver and steel."
 
 [[dependencies.bmm_extras]]
     modId="neoforge"
@@ -67,6 +67,48 @@ license="Creative Commons 4.0"
 
 [[dependencies.bmm_extras]]
     modId="druidcraftrg"
+    type="optional"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bmm_extras]]
+    modId="mythicupgrades"
+    type="optional"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bmm_extras]]
+    modId="goety"
+    type="optional"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bmm_extras]]
+    modId="abyssborne"
+    type="optional"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bmm_extras]]
+    modId="gaiadimension"
+    type="optional"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bmm_extras]]
+    modId="ars_nouveau"
+    type="optional"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bmm_extras]]
+    modId="unusualfishmod"
+    type="optional"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bmm_extras]]
+    modId="roots"
     type="optional"
     ordering="NONE"
     side="BOTH"

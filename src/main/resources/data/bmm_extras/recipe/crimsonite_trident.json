@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "abyssborne"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "DSD",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "abyssborne:crimsonite_ingot"
+    },
+    "B": {
+      "item": "abyssborne:crimsonite_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:crimsonite_trident",
+    "count": 1
+  }
+}
