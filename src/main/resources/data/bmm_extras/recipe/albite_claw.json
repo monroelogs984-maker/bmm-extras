@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gaiadimension"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "DBD",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "item": "gaiadimension:albite"
+    },
+    "B": {
+      "item": "gaiadimension:albite_block"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:albite_claw",
+    "count": 1
+  }
+}

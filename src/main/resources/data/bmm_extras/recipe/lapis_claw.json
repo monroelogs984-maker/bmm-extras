@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "DBD",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "B": {
+      "item": "minecraft:lapis_block"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:lapis_claw",
+    "count": 1
+  }
+}

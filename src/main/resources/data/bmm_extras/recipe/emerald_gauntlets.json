@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    " B ",
+    "   "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:emerald"
+    },
+    "B": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:emerald_gauntlets",
+    "count": 1
+  }
+}

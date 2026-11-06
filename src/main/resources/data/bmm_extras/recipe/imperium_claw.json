@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cucumber"
+    }
+  ],
+  "type": "cucumber:shaped_transfer_damage",
+  "transfer_components": true,
+  "pattern": [
+    " G ",
+    "BWB",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "mysticalagriculture:imperium_gemstone_block"
+    },
+    "B": {
+      "item": "mysticalagriculture:imperium_ingot_block"
+    },
+    "W": {
+      "item": "bmm_extras:tertium_claw"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:imperium_claw",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "eternal_starlight"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DBD",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "tag": "c:ingots/unrealium"
+    },
+    "B": {
+      "item": "eternal_starlight:unrealium_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:unrealium_greathammer",
+    "count": 1
+  }
+}

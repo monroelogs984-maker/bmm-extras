@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "eternal_starlight"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DBD",
+    "DSD",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "tag": "c:ingots/thermal_springstone"
+    },
+    "B": {
+      "tag": "c:ingots/thermal_springstone"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:thermal_springstone_battleaxe",
+    "count": 1
+  }
+}

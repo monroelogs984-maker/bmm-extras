@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "eternal_starlight"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "eternal_starlight:flowglaze_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "bmm_extras:glacite_hammer"
+  },
+  "addition": {
+    "item": "eternal_starlight:flowglaze"
+  },
+  "result": {
+    "id": "bmm_extras:flowglaze_hammer",
+    "count": 1
+  }
+}

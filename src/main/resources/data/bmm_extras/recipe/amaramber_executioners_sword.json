@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "eternal_starlight"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    " B ",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "tag": "c:ingots/amaramber"
+    },
+    "B": {
+      "tag": "c:ingots/amaramber"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:amaramber_executioners_sword",
+    "count": 1
+  }
+}

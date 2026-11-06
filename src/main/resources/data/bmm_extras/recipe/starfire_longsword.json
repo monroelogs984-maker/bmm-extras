@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "eternal_starlight"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "eternal_starlight:starfire_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "bmm_extras:thermal_springstone_longsword"
+  },
+  "addition": {
+    "item": "eternal_starlight:starfire"
+  },
+  "result": {
+    "id": "bmm_extras:starfire_longsword",
+    "count": 1
+  }
+}

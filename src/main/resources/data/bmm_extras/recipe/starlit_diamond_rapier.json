@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "eternal_starlight"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    " B ",
+    "SD "
+  ],
+  "key": {
+    "D": {
+      "tag": "c:gems/starlit_diamond"
+    },
+    "B": {
+      "item": "eternal_starlight:starlit_diamond_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:starlit_diamond_rapier",
+    "count": 1
+  }
+}

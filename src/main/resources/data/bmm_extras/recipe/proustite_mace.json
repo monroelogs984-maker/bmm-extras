@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gaiadimension"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " B ",
+    "DSD"
+  ],
+  "key": {
+    "D": {
+      "item": "gaiadimension:proustite"
+    },
+    "B": {
+      "item": "gaiadimension:proustite_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:proustite_mace",
+    "count": 1
+  }
+}

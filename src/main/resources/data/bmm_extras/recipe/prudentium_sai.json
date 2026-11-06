@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cucumber"
+    }
+  ],
+  "type": "cucumber:shaped_transfer_damage",
+  "transfer_components": true,
+  "pattern": [
+    " G ",
+    "BWB",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "mysticalagriculture:prudentium_gemstone_block"
+    },
+    "B": {
+      "item": "mysticalagriculture:prudentium_ingot_block"
+    },
+    "W": {
+      "item": "bmm_extras:inferium_sai"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:prudentium_sai",
+    "count": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cucumber"
+    }
+  ],
+  "type": "cucumber:shaped_transfer_damage",
+  "transfer_components": true,
+  "pattern": [
+    " G ",
+    "BWB",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "mysticalagriculture:supremium_gemstone_block"
+    },
+    "B": {
+      "item": "mysticalagriculture:supremium_ingot_block"
+    },
+    "W": {
+      "item": "bmm_extras:imperium_longsword"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:supremium_longsword",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "eternal_starlight"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "DBD",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "tag": "c:gems/glacite"
+    },
+    "B": {
+      "item": "eternal_starlight:glacite_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:glacite_hammer",
+    "count": 1
+  }
+}

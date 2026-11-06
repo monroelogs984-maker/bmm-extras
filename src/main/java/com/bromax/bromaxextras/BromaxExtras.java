@@ -37,6 +37,9 @@ public final class BromaxExtras {
         UnusualFishCompat.register();
         RootsCompat.register();
         CommonMetalsCompat.register();
+        EternalStarlightCompat.register();
+        MysticalAgricultureCompat.register();
+        VanillaGemsCompat.register();
 
         ExtrasItems.ITEMS.register(modBus);
         ExtrasCreativeTab.TABS.register(modBus);

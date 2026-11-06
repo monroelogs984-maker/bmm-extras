@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cucumber"
+    }
+  ],
+  "type": "cucumber:shaped_transfer_damage",
+  "transfer_components": true,
+  "pattern": [
+    " G ",
+    "BWB",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "mysticalagriculture:tertium_gemstone_block"
+    },
+    "B": {
+      "item": "mysticalagriculture:tertium_ingot_block"
+    },
+    "W": {
+      "item": "bmm_extras:prudentium_flail"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:tertium_flail",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "eternal_starlight"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "DB ",
+    "SD "
+  ],
+  "key": {
+    "D": {
+      "tag": "c:ingots/deepsilver"
+    },
+    "B": {
+      "item": "eternal_starlight:deepsilver_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:deepsilver_katana",
+    "count": 1
+  }
+}

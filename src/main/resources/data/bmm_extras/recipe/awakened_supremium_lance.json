@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cucumber"
+    }
+  ],
+  "type": "cucumber:shaped_transfer_damage",
+  "transfer_components": true,
+  "pattern": [
+    " G ",
+    "BWB",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "mysticalagriculture:awakened_supremium_gemstone_block"
+    },
+    "B": {
+      "item": "mysticalagriculture:awakened_supremium_ingot_block"
+    },
+    "W": {
+      "item": "bmm_extras:supremium_lance"
+    }
+  },
+  "result": {
+    "id": "bmm_extras:awakened_supremium_lance",
+    "count": 1
+  }
+}
